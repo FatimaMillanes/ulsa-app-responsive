@@ -24,21 +24,40 @@ body{
       background-color: lightblue;
     }
   }*/
+
   body{
     background-color: rgb(72, 104, 201);
       margin: 0%;
 
   }
+  .pixels-text{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
   @media only screen and (max-width:1400px){
       body{
           background-color: cornflowerblue;
       }
   }
   @media only screen and (max-width:1000px){
-    body{
-        background-color:darkcyan ;
+        body{
+            background-color:darkcyan ;
+        }
     }
-}
     @media only screen and (max-width:800px){
         body{
             background-color: teal;
