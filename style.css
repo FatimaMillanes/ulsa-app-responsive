@@ -33,14 +33,28 @@ body{
   .pixels-text{
     position: absolute;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
-    color: white;
+    font-size: 30px;
+    color: darkslategray;
     text-align: center;
     top: 30%;
     left: 0;
     right: 0;
   }
-
+.container{
+    width: 90%;
+    height: 200px;
+    background-color:rgb(64, 92, 177);
+    margin: 0 auto;
+    
+}
+.section{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
 
 
 
@@ -51,20 +65,53 @@ body{
   @media only screen and (max-width:1400px){
       body{
           background-color: cornflowerblue;
+         
       }
+      .pixels-text{
+        color:teal;
+        font-size: 40px;
+        
+      }
+      
   }
+
   @media only screen and (max-width:1000px){
         body{
             background-color:darkcyan ;
         }
+        .pixels-text{
+            color:rgb(1, 116, 116);
+            font-size: 50px;
+          }
     }
+    
     @media only screen and (max-width:800px){
         body{
             background-color: teal;
         }
+        .pixels-text{
+            color:cornflowerblue;
+            font-size: 60px;
+          }
     }
         @media only screen and (max-width:600px){
             body{
                 background-color: darkslategray;
             }
+            .pixels-text{
+                color:rgb(72, 104, 201);
+                font-size: 70px;
+              }
+              .section{
+                  float: none;
+                  margin-left: 0%;
+              }
+              .section:hover{
+                  background-color: rgb(72, 104, 201);
+                  color: black;
+              }
+              .container{
+                  width: 100%;
+              }
+            
 }
