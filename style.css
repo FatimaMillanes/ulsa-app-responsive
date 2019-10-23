@@ -40,9 +40,11 @@ body{
     left: 0;
     right: 0;
   }
+
 .container{
     width: 90%;
-    height: 200px;
+    min-height: 100px;/*altura minima evita que se corte con el hidden*/
+    overflow: hidden;/*todo lo que sobrepasa a la figura se va a cortar*/
     background-color:rgb(64, 92, 177);
     margin: 0 auto;
     
@@ -56,10 +58,27 @@ body{
     margin-left: 10px;
 }
 
+.section1{
+    width: 70%;
+    float: left;
+    min-height: 306px;
+    overflow:hidden;
+    background-color: rgba(24, 128, 123, 0.808);
+    font-size: 30px;
+}
 
-
-
-
+.section2{
+    width: 30%;
+    float: left;
+    min-height: 306px;
+    overflow: hidden;
+    background-color: steelblue;
+    font-size: 30px;
+}
+.section-container{
+    width: 100%;
+    
+}
 
 
   @media only screen and (max-width:1400px){
@@ -112,6 +131,9 @@ body{
               }
               .container{
                   width: 100%;
+              }
+              .section1{
+                  font-size: 30px;
               }
             
 }
