@@ -36,12 +36,14 @@ body{
     font-size: 30px;
     color: darkslategray;
     text-align: center;
-    top: 30%;
+    top: 70%;
     left: 0;
     right: 0;
+
   }
 
 .container{
+    
     width: 90%;
     min-height: 100px;/*altura minima evita que se corte con el hidden*/
     overflow: hidden;/*todo lo que sobrepasa a la figura se va a cortar*/
@@ -50,6 +52,7 @@ body{
     
 }
 .section{
+    
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
@@ -75,9 +78,10 @@ body{
     background-color: steelblue;
     font-size: 30px;
 }
-.section-container{
+.section-container, .text-container{
     width: 100%;
-    
+    min-height: 75px;
+
 }
 
 
